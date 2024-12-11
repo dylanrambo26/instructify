@@ -4,23 +4,30 @@ body {
     background-color: #f0f8ff;
     margin: 0;
     padding: 0;
-    background-image: url('images/paper.jpg'); /* Path to your image */
+    background-image: url('assets/images/paper.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    background-attachment: scroll; /* Keeps the background fixed when scrolling */
     background-position: center; /* Centers the image */
   }
   
 header {
     /*background-color: #4CAF50;*/
     color: black;
+    font-size: 25px;
     padding: 10px 10px;
-    
+    background-color: white;
+    border: 2px solid black;
+    padding-bottom: 20px;
   } 
+footer{
+  background-color: white;
+}
   
   .button {
     display: inline-block;
     padding: 10px 20px;
+    margin-top: 20px;
     font-size: 16px;
     color: white;
     background-color: #008CBA;
@@ -36,6 +43,10 @@ header {
   
 p {
     margin-bottom: 15px;
+}
+.custom-paragraph{
+  padding-top: 20px;
+  font-size: 15px;
 }
 .image-style {
     max-width: 100%; /* Ensures the image scales to fit its container */
